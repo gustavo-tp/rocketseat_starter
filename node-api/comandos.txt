@@ -1,0 +1,12 @@
+npm init -y
+npm install express
+npm install -D nodemon
+npm install mongoose (ORM)
+npm install require-dir
+npm install mongoose-paginate
+npm install cors
+
+sudo docker pull mongo
+sudo docker run --name mongodb -p 27017:27017 -d mongo
+docker ps -a (lista todas as imagens)
+docker start (inicia imagem)
