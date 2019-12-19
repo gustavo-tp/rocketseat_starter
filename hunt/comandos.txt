@@ -1,0 +1,3 @@
+yarn add react-navigation@2.18.3
+yarn add axios
+yarn add react-native-webview
