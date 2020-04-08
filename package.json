@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/gustavo-tp/rocketseat-starter/issues"
   },
-  "homepage": "https://gustavo-tp.github.io/rocketseat-starter",
+  "homepage": "https://gustavo-tp.github.io/rocketseat-starter/",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
