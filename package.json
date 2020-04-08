@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build --prefix huntweb",
+    "predeploy": "npm run build --prefix huntweb && rm -rf build && cp -r huntweb/build .",
     "deploy": "gh-pages -d build"
   },
   "repository": {
