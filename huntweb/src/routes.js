@@ -6,7 +6,7 @@ import Main from './pages/main';
 import Product from './pages/product';
 
 const Routes = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/rocketseat-starter">
     <Switch>
       <Route exact path="/" component={Main} />
       <Route path="/products/:id" component={Product} />
