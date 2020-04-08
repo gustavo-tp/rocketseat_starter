@@ -1,0 +1,25 @@
+{
+  "name": "rocketseat_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build --prefix huntweb",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo-tp/rocketseat_starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavo-tp/rocketseat_starter/issues"
+  },
+  "homepage": "https://gustavo-tp.github.io/rocketseat_starter",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
