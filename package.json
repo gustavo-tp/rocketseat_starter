@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build --prefix huntweb && rm -rf build && cp -r huntweb/build .",
+    "predeploy": "npm run build --prefix huntweb",
     "deploy": "gh-pages -d build"
   },
   "repository": {
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/gustavo-tp/rocketseat-starter/issues"
   },
-  "homepage": "https://gustavo-tp.github.io/rocketseat-starter/",
+  "homepage": "https://gustavo-tp.github.io/rocketseat-starter",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
